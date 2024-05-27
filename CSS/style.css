@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-bottom: 100px;
+
+}
+
+#fetchButton {
+ background-color: black;
+ color: white;
+ padding: 10px;
+ font-size: 16px;
+ background: linear-gradient(45deg, #6b12ca, #fc25bb);
+ border: none;
+ border-radius: 30px;
+ box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+ transition: all 0.5s ease;
+}
+
+
+#userInfo {
+
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+
+}
+
+#userPicture {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid black
+}
+
+
+#userInfo p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+#userInfo span {
+    font-weight: bold;
+    color: #000000;
+}
